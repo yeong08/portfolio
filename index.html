@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0
+    ,maxiomum-scale=1.0, minimum-scale=1.0">
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 파비콘 연결 -->
+    <link htef="img/favicon.png" type="image/icon" rel="shortcut icon">
+    <!-- fullpage.css 연결 -->
+    <link href="css/jquery.fullpage.css" type="text/css" rel="stylesheet">
+    <!-- swiper css cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- 사용자 정의 css 연결 -->
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js연결 -->
+    <script src="js/jquery.fullpage.js"></script>
+    <!-- swiper js cdn 연결 -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- 사용자 정의 js연결 -->
+    <script src="js/main.js"></script>
+    <title>MY Portfolio</title>
+</head>
+<body background="">
+    <header>
+        <div class="logo"><a href="#intro"></a></div>
+        <nav class="navbar">
+            <ul class="navbar__menu">
+              <li class="navbar__item">
+                <a href="#intro" class="navbar__link"><i class="fa-solid fa-cloud"></i><span>Intro</span></a>
+              </li>
+              <li class="navbar__item">
+                <a href="#profile" class="navbar__link"><i class="fa-solid fa-address-card"></i><span>Profile</span></a>
+              </li>
+              <li class="navbar__item">
+                <a href="#web" class="navbar__link"><i class="fa-solid fa-desktop"></i><span>Web</span></a>
+              </li>
+              <li class="navbar__item">
+                <a href="#edit" class="navbar__link"><i class="fa-solid fa-layer-group"></i><span>Editorial</span></a>
+              </li>
+              <li class="navbar__item">
+                <a href="#contact" class="navbar__link"><i class="fa-solid fa-envelope-open"></i><span>Contact</span></a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    <div id="fullpage">
+        <section class="section intro bg1">
+            <div class="deco1"><img src="img/intro1.png" alt="도형1"></div>
+            <div class="deco2"><img src="img/intro2.png" alt="도형2"></div>
+            <div class="deco3"><img src="img/intro3.png" alt="도형3"></div>
+            <div class="deco4"><img src="img/intro4.png" alt="도형4"></div>
+            <div class="text">
+                <h2>HELLO,<br>I'M<br>YOUNGEUN</h2>
+                <h5>안녕하세요 웹디자이너 이영은 입니다</h5>
+            </div>
+        </section>
+        <section class="section profile bg2">
+            <h1>Profile</h1>
+            <div class="box">
+                <div class="wrapper">
+                    <div class="typing-demo">
+                      <h4>간결한 디자이너</h4>
+                    </div>
+                </div>
+                <div class="wrapper2">
+                    <h4>디자인은 짧은 순간 강한 인상과 흔적을 남깁니다.<br>간단하면서도 짜임새 있게, 또 깔끔하게<br>시간이 지나도 기억에 남는 간결한 디자인을 하겠습니다.</h4>
+                </div>
+                <div class="photo">
+                    <!-- <img src="img/me.png" alt="내사진"> -->
+                </div>
+                <div class="license">
+                    <h2>character</h2>
+                    <p>창의적인</p>
+                    <p>성실한</p>
+                    <p>감성</p>
+                    <p>몰두하는</p>
+                    <p>섬세한</p>
+                    <p>감성적인</p>
+                </div>
+                <div class="work">
+                    <hr>
+                    <!-- <p><span>NAME : </span> 이영은</p> -->
+                    <h3>LEE YOUNGEUN</h3>
+                    <p><span>BIRTH : </span> 97.03.08</p>
+                    <p><span>ADDR : </span>   인천 서구</p>
+                    <p><span>EMAIL : </span> lee030888@naver.com</p>
+                </div>
+                <div class="skill">
+                    <h2>ability</h2>
+                    <div class="container-skillbar">
+                        <div class="skillbar clearfix " data-percent="70%">
+                            <div class="skillbar-title" style="background: #fff;"><span>HTML5</span></div>
+                            <div class="skillbar-bar" style="background: #b1d0e0af;"></div>
+                            <div class="skill-bar-percent">70%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="65%">
+                            <div class="skillbar-title" style="background: #fff;"><span>CSS3</span></div>
+                            <div class="skillbar-bar" style="background: #b1d0e0af;"></div>
+                            <div class="skill-bar-percent">65%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="100%">
+                            <div class="skillbar-title" style="background: #fff;"><span>Premiere Pro</span></div>
+                            <div class="skillbar-bar" style="background: #b1d0e0af;"></div>
+                            <div class="skill-bar-percent">100%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="80%">
+                            <div class="skillbar-title" style="background: #fff;"><span>Photoshop</span></div>
+                            <div class="skillbar-bar" style="background: #b1d0e0af;"></div>
+                            <div class="skill-bar-percent">80%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="85%">
+                            <div class="skillbar-title" style="background: #fff;"><span>Illustrator</span></div>
+                            <div class="skillbar-bar" style="background: #b1d0e0af"></div>
+                            <div class="skill-bar-percent">85%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    </div><!-- Ende container Skill Bar -->
+                </div>
+                <div class="wave1"><img src="img/wave1-1.png" alt="웨이브1"></div>
+            </div>
+        </section>
+        <section class="section web bg3">
+            <h1>Web Portfolio</h1>
+            <!-- swiper 슬라이드 -->
+            <div class="box">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide_img w1">
+                                <div class="slide_img w12"></div>
+                                <div class="slide_img w13"></div>
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="num">
+                                    <p><b>01</b>/05</p>
+                                </div>
+                                <h2>스타벅스 리뉴얼</h2>
+                                <p>
+                                    <span>· 벤치마킹 : </span>하나금융파인드<br>
+                                    <span>· 기기지원 : </span>pc버전<br>
+                                    <span>· 사용 skill : </span>HTML5 + CSS3 + jQuery<br>
+                                    <span>· 사용 plugin : </span>swiper slide<br>
+                                    <span>· 제작 기간 : </span>2주일<br>
+                                    <span>· 콘텐츠 설명 : </span>메인 비주얼은 자동 슬라이드를 제작하여 표현하였고,<br>   PRODUCT는 탭메뉴로 제작하였습니다.
+                                </p>
+                                <div class="slide_btn">
+                                    <a href="https://www.starbucks.co.kr/index.do" target="_blank">Original</a>
+                                    <a href="https://yeong08.github.io/starbucks/" target="_blank">Renewal</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img w2">
+                                <div class="slide_img w22"></div>
+                                <div class="slide_img w23"></div>
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="num">
+                                    <p><b>02</b>/05</p>
+                                </div>
+                                <h2>러쉬 리뉴얼</h2>
+                                <p>
+                                    <span>· 벤치마킹 : </span>지산리조트<br>
+                                    <span>· 기기지원 : </span>pc버전<br>
+                                    <span>· 사용 skill : </span>HTML5 + CSS3 + jQuery<br>
+                                    <span>· 사용 plugin : </span>swiper slide<br>
+                                    <span>· 제작 기간 : </span>2주일<br>
+                                    <span>· 콘텐츠 설명 : </span>메인 비주얼은 아코디언으로 제작하여 표현하였고,<br>   다양한 형태의 슬라이드를 제작하였습니다.
+                                </p>
+                                <div class="slide_btn">
+                                    <a href="https://www.jisanresort.co.kr/w/" target="_blank">Original</a>
+                                    <a href="http://yeong08.dothome.co.kr/" target="_blank">Renewal</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img w3">
+                                <div class="slide_img w32"></div>
+                                <div class="slide_img w33"></div>
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="num">
+                                    <p><b>03</b>/05</p>
+                                </div>
+                                <h2>COS 리뉴얼</h2>
+                                <p>
+                                    <span>· 벤치마킹 : </span>오늘레스토랑<br>
+                                    <span>· 기기지원 : </span>반응형 (pc+Tablet+Mobile)<br>
+                                    <span>· 사용 skill : </span>HTML5 + CSS3 + jQuery + Bootstrap<br>
+                                    <span>· 사용 plugin : </span>swiper slide<br>
+                                    <span>· 제작 기간 : </span>2주일<br>
+                                    <span>· 콘텐츠 설명 : </span> 화면 스크롤 시에 콘텐츠가 서서히 나타나는 애니메이션을 구현하였고,<br>   구글 지도를 삽입함.
+                                </p>
+                                <div class="slide_btn">
+                                    <a href="https://www.restaurantoneul.com/" target="_blank">Original</a>
+                                    <a href="https://yeong08.github.io/cos/" target="_blank">Renewal</a>
+                                    <a href="#" onclick="window.open('https://yeong08.github.io/cos/', '_blank', 'width=570 height=1000,location=no,menubar=no,status=no,toolbar=no')">Mobile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img w4">
+                                <div class="slide_img w42"></div>
+                                <div class="slide_img w43"></div>
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="num">
+                                    <p><b>04</b>/05</p>
+                                </div>
+                                <h2>키티버니포니 리뉴얼</h2>
+                                <p>
+                                    <span>· 벤치마킹 : </span>네오포레<br>
+                                    <span>· 기기지원 : </span>반응형(PC+Tablet+Mobile)<br>
+                                    <span>· 사용 skill : </span>HTML5 + CSS3 + jQuery<br>
+                                    <span>· 사용 plugin : </span>swiper slide<br>
+                                    <span>· 제작 기간 : </span>1주일<br>
+                                    <span>· 콘텐츠 설명 : </span> 뷰포트, 미디어쿼리를 사용하여 반응형으로 제작하였고,<br>    awesome icon도 사용함.
+                                </p>
+                                <div class="slide_btn">
+                                    <a href="https://www.nbkorea.com/index.action" target="_blank">Original</a>
+                                    <a href="https://yeong08.github.io/kbp/" target="_blank">Renewal</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img w5">
+                                <div class="slide_img w52"></div>
+                                <div class="slide_img w53"></div>
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="num">
+                                    <p><b>05</b>/05</p>
+                                </div>
+                                <h2>뉴발란스 리뉴얼</h2>
+                                <p>
+                                    <span>· 벤치마킹 : </span>포스코오엔앰<br>
+                                    <span>· 기기지원 : </span>모바일<br>
+                                    <span>· 사용 skill : </span>HTML5 + CSS3 + jQuery<br>
+                                    <span>· 사용 plugin : </span>swiper slide<br>
+                                    <span>· 제작 기간 : </span>1주일<br>
+                                    <span>· 콘텐츠 설명 : </span>모바일 웹앱으로 구현하였고,<br>   세로 아코디언 형태로 내비게이션을 제작함.
+                                </p>
+                                <div class="slide_btn">
+                                    <a href="https://www.neoforet.co.kr/" target="_blank">Original</a>
+                                    <a href="#" onclick="window.open('https://yeong08.github.io/newbalance/', '_blank', 'width=570 height=1000,location=no,menubar=no,status=no,toolbar=no')">Mobile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"><i class="fa-solid fa-caret-left"></i></div>
+                    <div class="swiper-button-next"><i class="fa-solid fa-caret-right"></i></div>
+                </div>
+            </div>
+        </section>
+        <section class="section edit bg4">
+            <h1>Edit Portfolio</h1>
+            <div class="box">
+            <!-- 썸네일 가로로 나열하고, 오른쪽에 큰 이미지 보임 -->
+                <div class="gallery">
+                    <div class="thum_img">
+                        <ul>
+                            <li class="t1"><a href="#"></a></li>
+                            <li class="t2"><a href="#"></a></li>
+                            <li class="t3"><a href="#"></a></li>
+                            <li class="t4"><a href="#"></a></li>
+                            <li class="t5"><a href="#"></a></li>
+                            <li class="t6"><a href="#"></a></li>
+                            <li class="t7"><a href="#"></a></li>
+                            <li class="t8"><a href="#"></a></li>
+                            <li class="t9"><a href="#"></a></li>
+                            <li class="t10"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="big_img">
+                        <ul>
+                            <li class="b1"><a href="#"></a></li>
+                            <li class="b2"><a href="#"></a></li>
+                            <li class="b3"><a href="#"></a></li>
+                            <li class="b4"><a href="#"></a></li>
+                            <li class="b5"><a href="#"></a></li>
+                            <li class="b6"><a href="#"></a></li>
+                            <li class="b7"><a href="#"></a></li>
+                            <li class="b8"><a href="#"></a></li>
+                            <li class="b9"><a href="#"></a></li>
+                            <li class="b10"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wave2"><img src="img/wave2.png" alt="웨이브2"></div>
+            </div>
+        </section>
+        <section class="section contact bg5">
+            <h1>Contact Me</h1>
+            <div class="box">
+                <div class="contact_wrap">
+                    <div class="contact_img">
+                    </div>
+                    <form class="gform" method="POST" data-email="lee030888@gmail.com" action="https://script.google.com/macros/s/AKfycbyL9TneaDj24nof0ONdB6BO-SrcX0dkQ6uJz3fx/exec">
+                        <div class="form-elements">
+                            <fieldset class="pure-group">
+                              <label for="name"> 이 름 : </label>
+                              <input id="name" name="name" placeholder="이름을 입력해 주세요" />
+                            </fieldset>
+    
+                            <fieldset class="pure-group">
+                                <label for="title"> 제 목 : </label>
+                                <input id="title" name="title" placeholder="제목을 입력해 주세요" />
+                              </fieldset>
+    
+                            <fieldset class="pure-group">
+                              <label for="message"> 내 용 : </label>
+                              <textarea id="message" name="message" rows="10"
+                              placeholder="내용을 입력해 주세요"></textarea>
+                            </fieldset>
+                      
+                            <fieldset class="pure-group">
+                              <label for="email">메 일 :</label>
+                              <input id="email" name="email" type="email" value=""
+                              required placeholder="이메일 주소를 입력해 주세요"/>
+                            <button class="button-success pure-button button-xlarge">
+                                <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+                            </div>
+                            </fieldset>
+                          <!-- Customise the Thankyou Message People See when they submit the form: -->
+                          <div class="thankyou_message" style="display:none;">
+                            <h2>메일이 정상적으로 전송되었습니다. 감사합니다.</h2>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <footer>
+        ⓒYoungeun by 2022.
+    </footer>
+    <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+  <!-- END -->
+</body>
+</html>
